@@ -1,0 +1,429 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.logo{
+  padding-bottom: 20%;
+}
+.homeContainer{
+  width: 86.5%;
+  padding-top: 2%;
+  height: 100vh;
+  overflow: auto;
+}
+.homeContainer h1{
+  font-weight: bold;
+  color: white;
+  padding-bottom: 3%;
+  margin-bottom: -1.5rem;
+}
+.itemsContainer{
+  display: inline-block;
+  width: 100%;
+}
+.itemsContainer ul{
+  overflow: hidden;
+  display: inline-block;
+  width: 98%;
+
+}
+
+.itemsContainer li{
+  /*display: inline-block;*/
+  width: 24%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  display: inline-block;
+}
+
+.image-container:hover{
+    opacity: 0.6;
+    transition: opacity .2s;
+}
+
+.itemsContainer p{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image-container{
+    padding-top: 100%;
+    background-color: #303030;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    box-shadow: 0 0 25px rgba(0,0,0,.2);
+  }
+.inputForm input{
+  width: 20%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 22px;
+  font-size: 20px;
+  background-color: white;
+  background-position: 10px 10px;
+  padding: 12px 12px 12px 15px;
+}
+.inputForm{
+  padding-left: 2%;
+}
+.artistDetail{
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin-left: -6%;
+}
+.artistDetail img{
+  width: 55%;
+}
+
+.albumName{
+  font-weight: 700;
+  font-size: 26px;
+  color: white;
+}
+
+.albumArtistName{
+  color: gray;
+}
+
+.albumTracks{
+  color: white;
+
+}
+
+.artistDetail button{
+  width: 30%;
+  border: 2px solid #2ebd59;
+  border-radius: 20px;
+  background-color:#2ebd59;
+}
+.artistDetail button:hover{
+  background-color:#219042;
+}
+.tracksContainer{
+  float: right;
+  width: 45%;
+
+}
+.singleAlbumContainer{
+  padding-top: 5%;
+  height: 100vh;
+  overflow: auto;
+}
+.singleTrack{
+  display: inline-block;
+  margin-left: -47%;
+
+}
+.singleTrack ol{
+  width: 600px;
+  padding-top: 1%;
+}
+
+
+.singleTrack ol:hover{
+  background-color: rgba(0,0,0,.7);
+}
+
+
+.trackNumber{
+  float: left;
+  color: gray;
+  padding-left: 1%;
+}
+.tracksNames{
+  text-align: left;
+  padding-left: 15%;
+}
+.trackName {
+  float: left;
+  text-align: left;
+  color: white;
+  padding-right: 15%;
+}
+.trackDuration{
+  float: right;
+  color: gray;
+  padding-right: 2%;
+}
+.clear{
+  clear: both;
+}
+.artistImage {
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: 50% 25%;
+}
+.artistDetails{
+  padding-top: 23%;
+  /*padding-left: 1%;*/
+  display:list-item;
+}
+.followers{
+  padding-left: 1%;
+  color: white;
+  margin-bottom: -1rem;
+}
+.artistName{
+color: white;
+padding-left: 1%;
+
+font-weight: bold;
+padding-bottom: 1%;
+font-size: 60px;
+font-family: helvetica neue;
+margin-bottom: -1rem;
+
+}
+.gradDiv{
+  background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+  height: 25vh;
+  width: 100%;
+  margin-top: -13.3%;
+
+}
+.followButton{
+
+  width: 9%;
+  height: 40px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  transition: background-color .2s;
+  border-radius: 30px;
+  background-color:#2ebd59;
+  margin-right: 1%;
+  margin-left: 1%;
+  color: white;
+}
+.followButton:hover{
+  background-color:#219042;
+}
+.PlayAllButton{
+  width: 9%;
+  height: 40px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border: 1px solid #fff;
+  transition: background-color .2s;
+  border-radius: 30px;
+  color: white;
+}
+.PlayAllButton:hover{
+  background-color:black;
+}
+
+.artistTrackList{
+  padding-right: 50%;
+  width: 45%;
+
+}
+
+.artistTrackList .trackDuration{
+  padding-left: 5%;
+}
+.pageTitle{
+  color: white;
+  font-weight: bold;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+
+.artistTracks{
+  height:90%;
+  padding-bottom: 35%;
+
+}
+.artistAlbums{
+  background-color: rgba(0,0,0,.3);
+  padding-top: 3%;
+}
+.artistTrackList .singleTrack ol{
+  width: 1000px;
+  padding-top: 1%;
+
+}
+.artistTrackList .singleTrack ol:hover{
+  background-color: rgba(0,0,0,.7);
+}
+/*.artistTrackList .singleTrack ol:hover{
+  color: #219042;
+}*/
+.side-nav{
+  background-color: black;
+  width: 15%;
+  height: 100%;
+  float: left;
+  padding-left: 3%;
+  overflow: hidden;
+}
+.sidebar{
+  width: 200px;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0,0,0,.5);
+  padding: 30px;
+  float: left;
+}
+.main-menu{
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 40px;
+  padding-left: 2%;
+  font-size: inherit;
+}
+.active{
+  opacity: 1;
+}
+.sidebar__user{
+  padding-bottom: 5%;
+}
+.menu__item{
+  font-weight: bold;
+}
+li a{
+  color: white;
+  opacity: 0.5;
+}
+li a:hover{
+  color: white;
+  opacity: 1;
+}
+li a:focus{
+  color: white;
+  opacity: 1;
+}
+.fa-user-o:before {
+    content: "\F007";
+}
+.fa {
+    display: inline-block;
+    padding-right: 4%;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+}
+.sidebar__user{
+  color: white;
+  position: fixed;
+  bottom:-40px;
+  width: 10%;
+  font-size: 20px;
+}
+
+.singleArtistContainer{
+  width: 86.5%;
+  height: 100vh;
+  overflow: auto;
+
+}
+
+.playerContainer{
+  width: 100%;
+  background: #252525;
+  color: white;
+  position: fixed;
+  bottom:0;
+  z-index: 10;
+  display: inline-block;
+  padding-left: 2%;
+  padding-top: 1%;
+}
+.trackImage{
+  width: 50px;
+  margin-right: 10px;
+  height: 50px;
+  float: left;
+}
+.playerImage{
+  padding-top: 100%;
+  transform: scale(1);
+  background-color: #303030;
+  background-size: cover;
+  background-position: 50%;
+  margin-bottom: 10px;
+  position: relative;
+  transition: transform .2s,box-shadow .2s,-webkit-transform .2s;
+  box-shadow: 0 0 25px rgba(0,0,0,.2);
+}
+.playerArtist{
+  float: left;
+  width: 30%
+}
+.trackPlaying{
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
+.player{
+  display: block;
+}
+.timeBegin{
+  float: left;
+  width: 1%;
+}
+.timeEnd{
+  float: left;
+  width: 1%;
+}
+
+.progressBar{
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  width: 600px;
+  height: 5px;
+  float: left;
+  background: dimgray;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.progressBarColor{
+  height: 5px;
+  background: green;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: -0px;
+  float: left;
+}
+.fa{
+  display: inline-block;
+  font-weight: bolder;
+  color: white;
+}
+.fa-play:before {
+    content: "\F04B";
+}
+.fa-2{
+  font-size: 1.5em;
+}
+.fa-pause:before {
+    content: "\F04C";
+}
+.playerControlsButtons{
+  padding-left: 25%;
+}
