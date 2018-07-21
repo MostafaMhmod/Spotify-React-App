@@ -1,4 +1,5 @@
-# Spotify React App [App Currently down due to spotify API changes]
+# Spotify React App
+[App Currently down due to spotify API changes]
 
 ## Installation
 
