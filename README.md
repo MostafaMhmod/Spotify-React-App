@@ -2,13 +2,17 @@
 
 ## Installation
 
-To start first clone the repository and cd into the Spotify-React-App folder then run:
+To start first clone the repository then :
 
+1)
+```
+$ cd Spotify-React-App 
+```
+2)
 ```
 $ npm install 
 ```
-
-Then run:
+3)
 ```
 $ npm start
 ```
